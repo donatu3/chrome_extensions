@@ -1,0 +1,19 @@
+{
+    "name": "wikisearch",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "選択した文字列をwikipediaで検索",
+    
+    "permissions": [
+        "contextMenus"
+    ],
+    
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png"
+    },
+    
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
