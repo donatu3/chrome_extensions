@@ -1,0 +1,17 @@
+{
+    "name": "counter",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "クリック回数をカウントする",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    
+    "browser_action": {
+        "default_icon": "./icon/icon16.png",
+        "default_title": "counter",
+        "default_popup": "popup.html"
+    }
+    
+}
