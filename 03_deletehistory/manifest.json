@@ -1,0 +1,25 @@
+{
+    "name": "delete history",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "履歴を削除する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    
+    "permissions": [
+        "history",
+        "tabs"
+    ],
+    
+    "background": {
+        "scripts": ["background.js","jquery1.11.3.min.js"]
+    },
+    
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "履歴削除"
+    }
+    
+}
