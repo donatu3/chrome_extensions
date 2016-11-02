@@ -1,0 +1,31 @@
+{
+    "name": "filter",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "画面にフィルターをかける",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "フィルター"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+            "css": ["contents.css"],
+            "js": ["contents.js","jquery1.11.3.min.js"]
+        }
+    ]
+
+}
