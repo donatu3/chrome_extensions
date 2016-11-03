@@ -6,8 +6,8 @@ PC画面の明るさを限界まで下げてもまだやや眩しく感じる時
 
 #スクリーンショット
 ![スクショ01](https://github.com/donatu3/chrome_extensions/blob/master/06_filter/ss/01.png)
-![スクショ02](https://github.com/donatu3/chrome_extensions/blob/master/05_filter/ss/02.png)
-![スクショ03](https://github.com/donatu3/chrome_extensions/blob/master/05_filter/ss/03.png)
+![スクショ02](https://github.com/donatu3/chrome_extensions/blob/master/06_filter/ss/02.png)
+![スクショ03](https://github.com/donatu3/chrome_extensions/blob/master/06_filter/ss/03.png)
 
 #メモ
 ・Browser Actionsでcontent scriptの任意の関数を呼び出す  
