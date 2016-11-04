@@ -1,0 +1,27 @@
+.icon_image{
+    float: left;
+}
+.temperature{
+    margin-top: 9px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+#error{
+    width: 220px;
+}
+
+#weather{
+    width: 150px;
+    font-size: 14px;
+}
+
+#container{
+    display:none;
+}
+
+#loading{
+
+}
