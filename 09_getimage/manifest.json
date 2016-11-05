@@ -1,0 +1,31 @@
+{
+    "name": "getimage",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "ページ中の画像を取得する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    
+    "permissions": [
+        "tabs"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+            "js": ["jquery1.11.3.min.js","contents.js"]
+        }
+    ],
+    
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "getimage",
+      "default_popup": "popup.html"
+    }
+    
+}
