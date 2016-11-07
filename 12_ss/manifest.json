@@ -1,0 +1,28 @@
+{
+    "name": "ss",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "ページのスクリーンショットを取得する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "ss"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+            "js": ["jquery1.11.3.min.js","html2canvas.js","contents.js"]
+        }
+    ]
+
+}
