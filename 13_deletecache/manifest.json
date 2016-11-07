@@ -1,0 +1,27 @@
+{
+    "name": "cache clear",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "キャッシュを全て削除する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    
+    "permissions": [
+        "browsingData",
+        "storage"
+    ],
+    
+    "options_page": "options.html",
+    
+    "background": {
+        "scripts": ["background.js","jquery1.11.3.min.js"]
+    },
+    
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "キャッシュ削除"
+    }
+    
+}
