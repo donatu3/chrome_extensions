@@ -1,0 +1,27 @@
+{
+    "name": "nicoignore",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "ニコニコの検索結果から不要な投稿者を除外する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "nico_ignore"
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "matches": [
+            "http://www.nicovideo.jp/*"
+        ],
+            "js": ["jquery1.11.3.min.js","contents.js"]
+        }
+    ]
+
+}
