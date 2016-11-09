@@ -1,0 +1,25 @@
+{
+    "name": "loadtabs",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "オプションで設定したURLを新しいタブとして表示する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    
+    "background": {
+        "scripts": ["jquery1.11.3.min.js","background.js"]
+    },
+    
+    "options_page": "options.html",
+
+    "browser_action": {
+        "default_title": "loadtabs"
+    }
+    
+}
