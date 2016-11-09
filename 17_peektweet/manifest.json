@@ -1,0 +1,22 @@
+{
+    "name": "peektweet",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "１人のユーザーのツイートを数件簡易表示する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    
+    "permissions": [
+        "storage"
+    ],
+    
+    "options_page": "options.html",
+    
+    "browser_action": {
+        "default_title": "peektweet",
+        "default_popup": "popup.html"
+    }
+    
+}
