@@ -1,0 +1,31 @@
+{
+    "name": "copyurl",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "開いているページのURLをコピーするショートカットキーを追加する",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "clipboardRead"
+    ],
+    "browser_action": {
+      "default_icon": "icon/icon48.png",
+      "default_title": "copyurl"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "commands":{
+        "copyUrl":{
+            "suggested_key":{
+                "default": "Alt+U"
+            },
+            "description": "copy current tab's url"
+        }
+    }
+
+}
