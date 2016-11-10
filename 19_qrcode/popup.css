@@ -1,0 +1,22 @@
+pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    width: 250px;
+    font-size:16px;
+}
+.tweet{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text{
+}
+.time{
+    font-weight: bold;
+    text-align: right;
+    margin-top: 3px;
+    font-size: 14px;
+}
+#error{
+    width: 220px;
+}
