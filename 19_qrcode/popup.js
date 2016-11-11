@@ -1,9 +1,12 @@
 $(function () {
     var textdata;
     $("#run").click(function(){
-        textdata = $("#data").text();
-        alert(textdata);
+        textdata = $("#text").val();
         $("#result").html("");
-        $("#result").qrcode({text: textdata});
+        $("#result").qrcode({
+            width:100,
+            height:100,
+            text: textdata
+        });
     });
 });

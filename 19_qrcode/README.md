@@ -1,9 +1,7 @@
-# peektweet
-１人のツイートを数軒簡易表示する。  
-オプションからユーザー名、表示件数を指定して利用する。  
+# qrcode
+入力された情報に基づいてQRコードを生成する。  
 #スクリーンショット
-![スクショ01](https://github.com/donatu3/chrome_extensions/blob/master/17_peektweet/ss/01.png)  
-![スクショ02](https://github.com/donatu3/chrome_extensions/blob/master/17_peektweet/ss/02.png)  
+![スクショ01](https://github.com/donatu3/chrome_extensions/blob/master/19_qrcode/ss/01.png)  
 #メモ
-・twitterAPIの使い方まとめ  
-https://syncer.jp/twitter-api-matome
+・jquery QRコード  
+http://jeromeetienne.github.io/jquery-qrcode/
