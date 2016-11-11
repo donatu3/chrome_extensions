@@ -1,0 +1,17 @@
+{
+    "name": "URLexpand",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "短縮URLから元のURLを調べる",
+    
+    "icons": {
+        "48": "./icon/icon48.png"
+    },
+    
+    "browser_action": {
+        "default_icon": "./icon/icon16.png",
+        "default_title": "URLexpand",
+        "default_popup": "popup.html"
+    }
+    
+}
