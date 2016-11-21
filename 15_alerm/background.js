@@ -43,7 +43,9 @@ function setAlert(nextdata){
     setTimeout(function(){
         audio[nextdata.hour].volume = 1.0;
         audio[nextdata.hour].play();
-        setAlert(getNext());
+        setTimeout(function(){
+            setAlert(getNext());
+        },(10000));
 	},(nextdata.time));
 }
 
